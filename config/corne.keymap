@@ -43,12 +43,12 @@
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  {  |  }  |  |  |   |     |     |     |     |     |  \   |
 // | CTRL |  #  |  $  |  (  |  )  |  `  |   |  +  |  -  |  /  |  *  |  \  |  `   |
-// | SHFT |  %  |  ^  |  [  |  ]  |  ~  |   |  &  |  =  |  <  |  >  | "|" |  ~   |
+// | SHFT |  %  |  ^  |  [  |  ]  |  ~  |   |  &  |  =  |  <  |  >  | "|" |  _   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp  TAB  &kp EXCL   &kp AT    &kp LBRC &kp RBRC &kp PIPE    &trans    &trans    &trans    &trans   &trans   &kp BSLH
    &kp LCTRL &kp HASH   &kp DLLR  &kp LPAR &kp RPAR &kp GRAVE   &kp PLUS  &kp MINUS &kp FSLH  &kp STAR &kp BSLH &kp GRAVE
-   &kp LSHFT &kp PRCNT  &kp CARET &kp LBKT &kp RBKT &kp TILDE   &kp AMPS  &kp EQUAL &kp LT    &kp GT   &kp PIPE &kp TILDE
+   &kp LSHFT &kp PRCNT  &kp CARET &kp LBKT &kp RBKT &kp TILDE   &kp AMPS  &kp EQUAL &kp LT    &kp GT   &kp PIPE &kp UNDER
                     	        &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
